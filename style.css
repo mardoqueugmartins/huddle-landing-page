@@ -101,3 +101,64 @@ footer i {
     font-size: 1.3rem;
 }
 
+/* Responsividade Mobile */
+@media (max-width: 480px) {
+
+    body {
+        background-image: url(./images/bg-mobile.svg);
+        padding: 32px;
+    }
+    .page {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    header img {
+        width: 40%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    .container-headline {
+        align-items: center;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .container-headline h1 {
+        font-size: 1.6rem;
+    }
+
+    .container-headline p {
+        font-size: 1.1815rem;
+
+    }
+
+    .container-headline button {
+        font-size: 1rem;
+        width: 250px;
+        height: 50px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    footer a {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #fff;
+    }
+
+    footer i {
+        font-size: 16px;
+    }
+}
+
