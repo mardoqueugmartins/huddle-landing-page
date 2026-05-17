@@ -66,6 +66,13 @@ main {
     box-shadow: 0 0 12px #0004;
 }
 
+.container-headline button:hover {
+    background-color:  hsl(300, 69%, 71%);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 footer {
     display: flex;
     justify-content: end;
@@ -80,9 +87,17 @@ footer a {
     border: 2px solid #fff;
     display: grid;
     place-content: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    border-color:  hsl(300, 69%, 71%);
+    color:  hsl(300, 69%, 71%);
 }
 
 footer i {
-    color: #fff;
+    color: inherit;
     font-size: 1.3rem;
 }
+
